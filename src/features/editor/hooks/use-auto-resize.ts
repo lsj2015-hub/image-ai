@@ -75,5 +75,5 @@ export const useAutoResize = ({ canvas, container }: UseAuthResizeProps) => {
         resizeObserver.disconnect();
       }
     };
-  }, [canvas, container]);
+  }, [canvas, container, autoZoome]);
 };
